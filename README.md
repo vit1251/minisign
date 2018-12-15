@@ -20,9 +20,9 @@ Dependencies:
 
 Prepare environment:
 
-    # ./install-sodium.sh
-    # ./install-sodium.sh
-    # ./install-sodium.sh
+    # ./install-python3.sh
+    # ./install-meson.sh
+    # ./install-ninja-build.sh
     # ./install-sodium.sh
 
 Compilation:
