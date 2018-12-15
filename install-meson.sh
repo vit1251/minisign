@@ -2,4 +2,4 @@
 
 set -x
 
-python3.6 -m pip install -U meson
+sudo python3.6 -m pip install -U meson
