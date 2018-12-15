@@ -3,7 +3,7 @@ project('minisign', 'c', version: '0.8.0')
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_ALL_SOURCE -D_GNU_SOURCE")
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64")
 
-sodium_dep = dependency('sodium')
+sodium_dep = dependency('libsodium')
 
 sources = [
     'src/minisign.c',
