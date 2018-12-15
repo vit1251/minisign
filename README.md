@@ -17,27 +17,19 @@ Compilation / installation
 
 Dependencies:
 * [libsodium](http://doc.libsodium.org/)
-* cmake
+
+Prepare environment:
+
+    # ./install-sodium.sh
+    # ./install-sodium.sh
+    # ./install-sodium.sh
+    # ./install-sodium.sh
 
 Compilation:
 
-    $ mkdir build
-    $ cd build
-    $ cmake ..
-    $ make
-    # make install
-
-Minisign is also available in Homebrew:
-
-    $ brew install minisign
-
-Minisign is also available in Scoop on Windows:
-
-    $ scoop install minisign
-
-Minisign is also available in chocolatey on Windows:
-
-    $ choco install minisign
+    # meson builddir
+    # ninja -C builddir
+    # ninja -C builddir test
 
 Additional tools
 ----------------
